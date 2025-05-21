@@ -13,16 +13,7 @@ class receta(ABC):
     def mostrar(self):
         pass
     def crear_receta():
-        nombre = input("Nombre de la receta: ")
-        ingredientes = []
-        print("Introduce los ingredientes: ")
-        while True:
-            ing = input("- ")
-            if ing.lower() == "fin":
-                break
-            ingredientes1.append(ing)
-        pasos = []
-        print("Introduce los pasos")
+        pass
      
         
 # Clase para recetas vegetarianas
@@ -83,7 +74,7 @@ def principal():
         print(f"* {ing}")
            
 def crear_receta():
-        tipo_receta = (f"Vegetariana / Carnivora")
+        
         receta_tipo = input("Que tipo de receta quieres Vegetariana / Carnivora:")
         
         if receta_tipo == "Vegetariana":
